@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import Hello from './basic/1.Hello';
+// import ReactComponent from './basic/2.ReactComponent';
+// import ReactProps from './basic/3.ReactProps';
+// import ReactEvent from './basic/4.ReactEvent';
+// import ReactUseState from './basic/7.ReactUseState';
+// import ReactLayout from "./basic/9.ReactLayout";
+import ReactStyledComponent from "./basic/10.ReactStyledComponent";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Hello />
+    // <ReactComponent />
+    // <ReactProps />
+    // <ReactEvent />
+    // <ReactUseState />
+    // <ReactLayout />
+    <ReactStyledComponent />
   );
 }
-
-export default App;
